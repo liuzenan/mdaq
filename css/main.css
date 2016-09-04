@@ -1,0 +1,74 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+ body {
+    overflow-x: hidden;
+ }
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    position: fixed;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow: visible;
+    background: #f0f0f0;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 32px 16px;
+    list-style: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    background: none;
+}
+
+.sidebar-nav > li {
+    margin-bottom: 36px;
+}
+
+label {
+    display: block;
+}
+
+.sidebar-nav label {
+    line-height: 1.5;
+    color: #666;
+}
+
+.sidebar-nav .client-tier {
+    font-size: 1.4em;
+}
+

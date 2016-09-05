@@ -164,21 +164,21 @@ var calendar = $("#calendar").calendar(
                 tmpl_path: "/tmpls/",
                 events_source: GetEvents(1472313600000),
                 onAfterViewLoad: function(view) {
-                    $('.btn-group button').removeClass('active');
+                    $('.btn-group.calendar-view-btns button').removeClass('active');
 			$('button[data-calendar-view="' + view + '"]').addClass('active');
 		}
             }); 
 calendar.setOptions({first_day: 1});
 calendar.view();
     
-    $('.btn-group button[data-calendar-nav]').each(function() {
+    $('.btn-group.calendar-view-btns button[data-calendar-nav]').each(function() {
 		var $this = $(this);
 		$this.click(function() {
 			calendar.navigate($this.data('calendar-nav'));
 		});
 	});
     
-    $('.btn-group button[data-calendar-view]').each(function() {
+    $('.btn-group.calendar-view-btns button[data-calendar-view]').each(function() {
 		var $this = $(this);
 		$this.click(function() {
 			calendar.view($this.data('calendar-view'));

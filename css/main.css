@@ -22,7 +22,7 @@
     height: 100%;
     margin-left: -250px;
     overflow: visible;
-    background: #f0f0f0;
+    background: #f5f5f5;
 }
 
 #page-content-wrapper {
@@ -65,10 +65,55 @@ label {
 
 .sidebar-nav label {
     line-height: 1.5;
-    color: #666;
+    color: #9d9d9d;
 }
 
-.sidebar-nav .client-tier {
-    font-size: 1.4em;
+.sidebar-nav .form-content {
+    font-size: 1.2em;
 }
 
+.calendar-month {
+    line-height: 1.6;
+}
+
+#cal-slide-content {
+    background: #333 !important;
+}
+
+#cal-week-box {
+    display: none !important;
+}
+.tw-list-container {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 !important;
+    background: #eee;
+    overflow-y: auto;
+}
+
+.tw-list-container .tw-list .list-group-item {
+    border-radius: 0 !important;
+}
+
+.tw-settings-container {
+     margin-left: 0;
+    margin-right: 0;
+    padding: 16px;
+    background: #white;
+}
+
+.tw-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    margin: 0;
+}
+
+.clear-btn {
+    display: block;
+    margin-top: 6px;
+}
+
+.text-info {
+    color: #999;
+}
